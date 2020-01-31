@@ -4,7 +4,6 @@ from datetime import datetime
 from django.apps import apps
 from django.core.exceptions import ImproperlyConfigured
 from django.core.files.storage import default_storage
-from django.templatetags.static import static
 from django.utils.translation import get_language
 from functools import wraps
 from importlib import import_module
