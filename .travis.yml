@@ -9,7 +9,10 @@ python:
   - "3.7"
   - "3.8"
 install:
-    - pip install -q -U pip tox tox-travis python-coveralls
+    - pip install -q -U pip
+    - pip install tox
+    - pip install tox-travis
+    - pip install python-coveralls
 script:
   - tox
 after_success:
