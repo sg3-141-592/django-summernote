@@ -40,6 +40,7 @@ class AuthorAdmin(SummernoteModelAdminMixin, admin.ModelAdmin):
     ]
 
 
+
 admin.site.register(Book, BookAdmin)
 admin.site.register(Post, PostAdmin)
 admin.site.register(Author, AuthorAdmin)
