@@ -132,13 +132,19 @@ SUMMERNOTE_CONFIG = {
             ['font', ['bold', 'italic', 'clear', ]],
             ['color', ['forecolor', 'backcolor', ]],
             ['misc', ['picture', 'fullscreen', 'codeview', 'print', 'help', ]],
+            ['insert', ['list-of-links']],
         ],
+        'listOfLinks': {
+            'listUrl': '/static/data.json',
+        }
     },
     'js': (
-        '/static/summernote-ext-print.js',
+        '/static/summernote/summernote-ext-print.js',
+        '/static/summernote/summernote-list-of-links.js',
     ),
     'js_for_inplace': (
-        '/static/summernote-ext-print.js',
+        '/static/summernote/summernote-ext-print.js',
+        '/static/summernote/summernote-list-of-links.js',
     ),
     'css': (
         '//cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/theme/base16-dark.min.css',
